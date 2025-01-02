@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "typeRoots": ["node_modules/@types"]  // This option specifies where TypeScript should look for type definitions
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
